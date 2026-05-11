@@ -15,7 +15,7 @@ public class MainWindow extends JFrame {
 
     private final SelectablePanel mainPanel;
     private final Painter painter;
-    private final Mandelbrot mandelbrot;
+    private final Mandelbrot mandelbrot; //изменено
     private final Converter conv;
     private final java.util.ArrayDeque<FractalState> history = new java.util.ArrayDeque<>();
 
